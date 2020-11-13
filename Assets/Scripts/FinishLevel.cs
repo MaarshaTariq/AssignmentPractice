@@ -45,7 +45,7 @@ public class FinishLevel : MonoBehaviour
         theScore.SetActive(true);
         yield return new WaitForSeconds(1);
         totalScore.SetActive(true);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
 
     }
 }
